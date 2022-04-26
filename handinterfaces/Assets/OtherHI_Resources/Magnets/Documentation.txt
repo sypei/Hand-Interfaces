@@ -1,0 +1,15 @@
+
+How the magnet attract a metallic object??
+
+To simulate the magnetism, the magnet should attract objects that are close, so with a sphere collider around the magnet it detects the objects that have "Attractable" tag
+
+and apply force to them. The force is applied in direction to the magnet, also you can change the power of the magnet, if it is normal or is a powerful magnet
+
+
+HOW TO ADD A MAGNET TO THE GAME???
+
+1- Take your magnet 3d model, add 2 colliders,  add the magnet script and configure the variables of speed and radius
+
+2- For the attractable objects, add a collider, then duplicate it and check the "isTrigger" option, the objects must have "Attractable" tag
+
+Also you have prefabs of magnets in the prefabs folder and a demo scene with all this package features

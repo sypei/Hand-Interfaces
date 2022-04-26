@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - sphere
+  - fishing
+  - lefthand
+  - inflator
+  - trumpet
+  - billiardcue
+  - switch
+  - spray
+  - thumbpiano
+  - scissors
+  - trigger
+  - binoculars
+  - assets
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Cuttable
+  - Water
+  - UI
+  - CameraHD
+  - Hands
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: New Layer
+    uniqueID: 3828897129
+    locked: 0
