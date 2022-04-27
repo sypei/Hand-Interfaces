@@ -92,10 +92,7 @@ public class OVRSkeleton : MonoBehaviour
 	private bool _updateRootScale = false;
 	[SerializeField]
 	private bool _enablePhysicsCapsules = false;
-	[SerializeField]
-	//DIY block begin
-	private PhysicMaterial _capsulePhysicMaterial;
-	//DIY block end
+
 	private GameObject _bonesGO;
 	private GameObject _bindPosesGO;
 	private GameObject _capsulesGO;
@@ -320,9 +317,6 @@ public class OVRSkeleton : MonoBehaviour
 				capsule.CapsuleCollider.height = mag + _skeleton.BoneCapsules[i].Radius * 2.0f;
 				capsule.CapsuleCollider.direction = 0;
 				capsule.CapsuleCollider.center = Vector3.right * mag * 0.5f;
-				////begin DIY block
-				capsule.CapsuleCollider.material = _capsulePhysicMaterial;
-				//end DIY block
 
 				GameObject ccGO = capsule.CapsuleCollider.gameObject;
 				ccGO.transform.SetParent(rbGO.transform, false);

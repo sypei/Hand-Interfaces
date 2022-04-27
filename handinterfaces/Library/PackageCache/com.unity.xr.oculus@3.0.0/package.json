@@ -1,0 +1,34 @@
+{
+  "name": "com.unity.xr.oculus",
+  "displayName": "Oculus XR Plugin",
+  "version": "3.0.0",
+  "unity": "2021.2",
+  "unityRelease": "0b17",
+  "description": "Provides display and input support for Oculus devices.",
+  "keywords": [
+    "oculus",
+    "xr",
+    "vr",
+    "virtual",
+    "rift",
+    "quest",
+    "xreditorsubsystem"
+  ],
+  "dependencies": {
+    "com.unity.xr.management": "4.2.0"
+  },
+  "repository": {
+    "url": "https://github.cds.internal.unity3d.com/unity/xr.sdk.oculus.git",
+    "type": "git",
+    "revision": "5153036cf67f3114194180d9181741db4a9fecf6"
+  },
+  "upm": {
+    "changelog": "### Added,- Added a Late Latching Debug Mode option under the Experimental section of the Oculus Android settings. This can be used to verify that Late Latching is working as intended via log entries in Development builds. Currently requires Unity 2020.3.28f1 or higher, and will be available in a future release of 2021.2+,- Add optional support for Symmetric Projection on Quest 2 when using Vulkan and Multiview. This can improve GPU performance when using Multiview due to more common workloads between the left and right eye,### Changed,- Multiview (Quest), and Single Pass Instanced (PC) are now the default stereo rendering modes in Unity 2021.2 and higher,### Fixed,- Android Minimum API Level was always being forced to 23 when Oculus Android was enabled. Now it's only set to 23 if it's currently less than 23"
+  },
+  "relatedPackages": {
+    "com.unity.xr.oculus.tests": "3.0.0"
+  },
+  "upmCi": {
+    "footprint": "2019e966775780ed84bc2d3e918ee80595645b86"
+  }
+}

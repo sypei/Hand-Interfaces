@@ -132,12 +132,11 @@ namespace OculusSampleFramework
 				case InteractableState.ProximityState:
 					_buttonMaterial.SetColor(_materialColorId, _buttonDefaultColor);
 					LerpToOldPosition();
-					PlaySound(_actionSoundEffect);
 					break;
 				case InteractableState.ActionState:
 					StopResetLerping();
 					_buttonMaterial.SetColor(_materialColorId, _buttonActionColor);
-					//PlaySound(_actionSoundEffect);
+					PlaySound(_actionSoundEffect);
 					_buttonInContactOrActionStates = true;
 					break;
 				default:

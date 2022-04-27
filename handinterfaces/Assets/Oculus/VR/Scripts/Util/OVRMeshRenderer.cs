@@ -32,7 +32,6 @@ public class OVRMeshRenderer : MonoBehaviour
 	{
 		None,
 		ToggleRenderer,
-		// FreezeRenderer,
 	}
 
 	public enum SystemGestureBehavior
@@ -176,16 +175,6 @@ public class OVRMeshRenderer : MonoBehaviour
 					_skinnedMeshRenderer.enabled = shouldRender;
 				}
 			}
-
-			// //DIY BLOCK BEGIN
-			// if (_confidenceBehavior == ConfidenceBehavior.FreezeRenderer)
-			// {
-			// 	if (_skinnedMeshRenderer != null && _skinnedMeshRenderer.enabled == true && shouldRender == false)
-			// 	{
-			// 		_skinnedMeshRenderer.enabled = shouldRender;
-			// 	}
-			// }
-			// //DIY BLOCK END
 
 			if (_systemGestureBehavior == SystemGestureBehavior.SwapMaterial)
 			{

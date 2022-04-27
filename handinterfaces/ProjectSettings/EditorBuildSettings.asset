@@ -6,22 +6,22 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
-    path: Assets/Scenes/UserStudy/Retr_Menu.unity
+    path: Assets/Scenes/user study/Retr_DM.unity
     guid: a127701699b4920469392c20cf9acc48
   - enabled: 0
-    path: Assets/Scenes/UserStudy/Retr_HI.unity
+    path: Assets/Scenes/user study/Retr_HI.unity
     guid: 5c22699a2c8189845b7c1b0655f507dc
   - enabled: 0
-    path: Assets/Scenes/UserStudy/Retr_VG.unity
+    path: Assets/Scenes/user study/Retr_VG.unity
     guid: 3af9198871147d741b4e4facd8ed4f2e
   - enabled: 0
-    path: Assets/Scenes/UserStudy/Inter_Base.unity
+    path: Assets/Scenes/user study/Inter_FG.unity
     guid: 6e566de691aee274d9232366c3069cd1
   - enabled: 0
-    path: Assets/Scenes/UserStudy/Inter_HI.unity
+    path: Assets/Scenes/user study/Inter_HI.unity
     guid: 168f9ce130c15a44b9c55ba57af9b26d
   - enabled: 0
-    path: Assets/Scenes/UserStudy/Inter_VG.unity
+    path: Assets/Scenes/user study/Inter_VG.unity
     guid: a695c50989172ef41bcf9323f8c3d8bb
   - enabled: 0
     path: Assets/Scenes/Demo.unity
@@ -29,9 +29,12 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/lab_three_lights/IoTsensing.unity
     guid: eb5fadc7ec880854ca2af0972333ec4f
-  - enabled: 1
-    path: Assets/PaperScenes/Entertainment/Entertainment.unity
+  - enabled: 0
+    path: Assets/Example Applications/Entertainment/Entertainment.unity
     guid: 71f6e2648b8f9db41b7721ba88522977
+  - enabled: 1
+    path: Assets/Example Applications/IoT/IoT.unity
+    guid: 1f0516c3e5b29564b9de72b23ad937ee
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 940b4bad926ad204e843829a0ab72271,
       type: 2}

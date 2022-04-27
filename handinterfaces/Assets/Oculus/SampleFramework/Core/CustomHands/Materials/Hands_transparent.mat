@@ -4,9 +4,8 @@
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
   m_Name: Hands_transparent
   m_Shader: {fileID: 4800000, guid: 5e0c88c3d888e4489929314c7c1ebf4b, type: 3}
   m_ShaderKeywords: _EMISSION
@@ -116,4 +115,3 @@ Material:
     - _RimColor: {r: 0.5, g: 0.78431374, b: 1, a: 0.503}
     - _SpecColor: {r: 0.50735295, g: 0.50735295, b: 0.50735295, a: 1}
     - _TintColor: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
-  m_BuildTextureStacks: []

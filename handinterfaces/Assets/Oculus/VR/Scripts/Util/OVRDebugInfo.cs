@@ -107,13 +107,16 @@ public class OVRDebugInfo : MonoBehaviour
             InitUIComponents();
         }
 
+		//todo: enable for Unity Input System
+#if ENABLE_LEGACY_INPUT_MANAGER
         if (Input.GetKeyDown(KeyCode.Space) && riftPresentTimeout < 0.0f)
         {
             initUIComponent = true;
             showVRVars ^= true;
         }
+#endif
 
-        UpdateDeviceDetection();
+		UpdateDeviceDetection();
 
         // Presenting VR variables
         if (showVRVars)
@@ -135,9 +138,9 @@ public class OVRDebugInfo : MonoBehaviour
     {
         isInited = false;
     }
-    #endregion
+#endregion
 
-    #region Private Functions
+#region Private Functions
     /// <summary>
     /// Initialize UI GameObjects
     /// </summary>
@@ -320,9 +323,9 @@ public class OVRDebugInfo : MonoBehaviour
 
         return GO;
     }
-    #endregion
+#endregion
 
-    #region Debugging variables handler
+#region Debugging variables handler
     /// <summary>
     /// Updates the IPD.
     /// </summary>
@@ -414,5 +417,5 @@ public class OVRDebugInfo : MonoBehaviour
             frames = 0;
         }
     }
-    #endregion
+#endregion
 }

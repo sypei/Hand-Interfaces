@@ -56,7 +56,6 @@ public class OVRSkeletonRenderer : MonoBehaviour
 	[SerializeField]
 	private Material _capsuleMaterial;
 	private Material _capsuleDefaultMaterial;
-	
 	[SerializeField]
 	private Material _systemGestureMaterial = null;
 	private Material _systemGestureDefaultMaterial;
@@ -164,10 +163,7 @@ public class OVRSkeletonRenderer : MonoBehaviour
 
 			CapsuleGO = GameObject.CreatePrimitive(PrimitiveType.Capsule);
 			CapsuleCollider collider = CapsuleGO.GetComponent<CapsuleCollider>();
-			//begin DIY block
-			//collider.material = _capsulePhysicMaterial;
-			Destroy(collider);//(this is uncommented in the original script)
-			//end DIY block
+			Destroy(collider);
 			Renderer = CapsuleGO.GetComponent<MeshRenderer>();
 			Renderer.sharedMaterial = RenderMaterial;
 

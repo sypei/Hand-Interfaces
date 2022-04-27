@@ -223,12 +223,17 @@ public class OVRPlayerController : MonoBehaviour
 			else
 				return;
 		}
+
+		//todo: enable for Unity Input System
+#if ENABLE_LEGACY_INPUT_MANAGER
+
 		//Use keys to ratchet rotation
 		if (Input.GetKeyDown(KeyCode.Q))
 			buttonRotation -= RotationRatchet;
 
 		if (Input.GetKeyDown(KeyCode.E))
 			buttonRotation += RotationRatchet;
+#endif
 	}
 
 	protected virtual void UpdateController()
@@ -322,6 +327,8 @@ public class OVRPlayerController : MonoBehaviour
 
 	public virtual void UpdateMovement()
 	{
+		//todo: enable for Unity Input System
+#if ENABLE_LEGACY_INPUT_MANAGER
 		if (HaltUpdateMovement)
 			return;
 
@@ -489,6 +496,7 @@ public class OVRPlayerController : MonoBehaviour
 				transform.RotateAround(CameraRig.centerEyeAnchor.position, Vector3.up, euler.y);
 			}
 		}
+#endif
 	}
 
 

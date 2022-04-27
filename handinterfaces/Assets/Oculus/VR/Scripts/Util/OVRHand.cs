@@ -50,9 +50,7 @@ public class OVRHand : MonoBehaviour,
 	private Transform _pointerPoseRoot = null;
 	private GameObject _pointerPoseGO;
 	private OVRPlugin.HandState _handState = new OVRPlugin.HandState();
-	//DIY BLOCK BEGIN
-	private OVRPlugin.HandState freeze_handState = new OVRPlugin.HandState();
-	//DIY BLOCK END
+
 	public bool IsDataValid { get; private set; }
 	public bool IsDataHighConfidence { get; private set; }
 	public bool IsTracked { get; private set; }
@@ -88,10 +86,6 @@ public class OVRHand : MonoBehaviour,
 		}
 	}
 
-	// private OVRPlugin.HandState FreezeHandState(OVRPlugin.HandState _handState)
-	// {
-	// 	return _handState;
-	// }
 	private void GetHandState(OVRPlugin.Step step)
 	{
 		if (OVRPlugin.GetHandState(step, (OVRPlugin.Hand)HandType, ref _handState))
@@ -107,10 +101,6 @@ public class OVRHand : MonoBehaviour,
 
 			IsDataValid = true;
 			IsDataHighConfidence = IsTracked && HandConfidence == TrackingConfidence.High;
-			// if (IsDataHighConfidence)
-			// {
-			// 	freeze_handState = FreezeHandState(_handState);
-			// }
 		}
 		else
 		{

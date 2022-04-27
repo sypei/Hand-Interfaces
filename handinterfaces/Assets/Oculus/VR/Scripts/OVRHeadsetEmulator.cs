@@ -54,6 +54,8 @@ public class OVRHeadsetEmulator : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
+		//todo: enable for Unity Input System
+#if ENABLE_LEGACY_INPUT_MANAGER
 		if (!emulatorHasInitialized)
 		{
 			if (OVRManager.OVRManagerinitialized)
@@ -139,6 +141,7 @@ public class OVRHeadsetEmulator : MonoBehaviour {
 			}
 		}
 		lastFrameEmulationActivated = emulationActivated;
+#endif
 	}
 
 	bool IsEmulationActivated()
