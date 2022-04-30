@@ -394,6 +394,7 @@
 "Assets/Example Applications/IoT/TCPServer.cs"
 "Assets/Example Applications/IoT/TCPtestClient.cs"
 "Assets/Example Applications/snapCam.cs"
+"Assets/GestureDetection_Demo.cs"
 "Assets/Oculus/Avatar/Samples/AvatarGallery/Scripts/OvrAvatarTestDriver.cs"
 "Assets/Oculus/Avatar/Samples/GripPoses/Scripts/PoseEditHelper.cs"
 "Assets/Oculus/Avatar/Samples/LocalAvatar/Scripts/GazeTargetSpawner.cs"
