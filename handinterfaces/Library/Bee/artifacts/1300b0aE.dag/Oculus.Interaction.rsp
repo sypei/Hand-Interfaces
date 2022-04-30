@@ -1,0 +1,624 @@
+-target:library
+-out:"Library/Bee/artifacts/1300b0aE.dag/Oculus.Interaction.dll"
+-refout:"Library/Bee/artifacts/1300b0aE.dag/Oculus.Interaction.ref.dll"
+-define:UNITY_2021_3_0
+-define:UNITY_2021_3
+-define:UNITY_2021
+-define:UNITY_5_3_OR_NEWER
+-define:UNITY_5_4_OR_NEWER
+-define:UNITY_5_5_OR_NEWER
+-define:UNITY_5_6_OR_NEWER
+-define:UNITY_2017_1_OR_NEWER
+-define:UNITY_2017_2_OR_NEWER
+-define:UNITY_2017_3_OR_NEWER
+-define:UNITY_2017_4_OR_NEWER
+-define:UNITY_2018_1_OR_NEWER
+-define:UNITY_2018_2_OR_NEWER
+-define:UNITY_2018_3_OR_NEWER
+-define:UNITY_2018_4_OR_NEWER
+-define:UNITY_2019_1_OR_NEWER
+-define:UNITY_2019_2_OR_NEWER
+-define:UNITY_2019_3_OR_NEWER
+-define:UNITY_2019_4_OR_NEWER
+-define:UNITY_2020_1_OR_NEWER
+-define:UNITY_2020_2_OR_NEWER
+-define:UNITY_2020_3_OR_NEWER
+-define:UNITY_2021_1_OR_NEWER
+-define:UNITY_2021_2_OR_NEWER
+-define:UNITY_2021_3_OR_NEWER
+-define:UNITY_INCLUDE_TESTS
+-define:USE_SEARCH_ENGINE_API
+-define:USE_SEARCH_TABLE
+-define:USE_SEARCH_MODULE
+-define:USE_PROPERTY_DATABASE
+-define:USE_SEARCH_EXTENSION_API
+-define:SCENE_TEMPLATE_MODULE
+-define:ENABLE_AR
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_EVENT_QUEUE
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_TEXTURE_STREAMING
+-define:ENABLE_UNET
+-define:ENABLE_LZMA
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_VR
+-define:ENABLE_WEBCAM
+-define:ENABLE_UNITYWEBREQUEST
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_COLLAB
+-define:ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+-define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+-define:ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING
+-define:ENABLE_CLOUD_SERVICES_PURCHASING
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_CLOUD_SERVICES_UNET
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_HUB_LICENSE
+-define:ENABLE_WEBSOCKET_CLIENT
+-define:ENABLE_DIRECTOR_AUDIO
+-define:ENABLE_DIRECTOR_TEXTURE
+-define:ENABLE_MANAGED_JOBS
+-define:ENABLE_MANAGED_TRANSFORM_JOBS
+-define:ENABLE_MANAGED_ANIMATION_JOBS
+-define:ENABLE_MANAGED_AUDIO_JOBS
+-define:ENABLE_RUNTIME_PERMISSIONS
+-define:ENABLE_ENGINE_CODE_STRIPPING
+-define:ENABLE_ONSCREEN_KEYBOARD
+-define:ENABLE_MANAGED_UNITYTLS
+-define:INCLUDE_DYNAMIC_GI
+-define:ENABLE_SCRIPTING_GC_WBARRIERS
+-define:PLATFORM_SUPPORTS_MONO
+-define:ENABLE_VIDEO
+-define:ENABLE_ACCELERATOR_CLIENT_DEBUGGING
+-define:PLATFORM_ANDROID
+-define:TEXTCORE_1_0_OR_NEWER
+-define:UNITY_ANDROID
+-define:UNITY_ANDROID_API
+-define:ENABLE_EGL
+-define:ENABLE_NETWORK
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:UNITY_CAN_SHOW_SPLASH_SCREEN
+-define:UNITY_HAS_GOOGLEVR
+-define:UNITY_HAS_TANGO
+-define:ENABLE_SPATIALTRACKING
+-define:ENABLE_ETC_COMPRESSION
+-define:PLATFORM_EXTENDS_VULKAN_DEVICE
+-define:PLATFORM_HAS_MULTIPLE_SWAPCHAINS
+-define:UNITY_ANDROID_SUPPORTS_SHADOWFILES
+-define:PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP
+-define:ENABLE_UNITYADS_RUNTIME
+-define:UNITY_UNITYADS_API
+-define:ENABLE_MONO
+-define:NET_STANDARD_2_0
+-define:NET_STANDARD
+-define:ENABLE_PROFILER
+-define:DEBUG
+-define:TRACE
+-define:UNITY_ASSERTIONS
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_64
+-define:UNITY_EDITOR_WIN
+-define:ENABLE_UNITY_COLLECTIONS_CHECKS
+-define:ENABLE_BURST_AOT
+-define:UNITY_TEAM_LICENSE
+-define:ENABLE_CUSTOM_RENDER_TEXTURE
+-define:ENABLE_DIRECTOR
+-define:ENABLE_LOCALIZATION
+-define:ENABLE_SPRITES
+-define:ENABLE_TERRAIN
+-define:ENABLE_TILEMAP
+-define:ENABLE_TIMELINE
+-define:ENABLE_LEGACY_INPUT_MANAGER
+-define:PROBUILDER_EXPERIMENTAL_FEATURES
+-define:CSHARP_7_OR_LATER
+-define:CSHARP_7_3_OR_NEWER
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Managed/UnityEditor.Graphs.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Managed/UnityEngine/UnityEditor.DiagnosticsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Managed/UnityEngine/UnityEditor.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Managed/UnityEngine/UnityEditor.GraphViewModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Managed/UnityEngine/UnityEditor.PackageManagerUIModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Managed/UnityEngine/UnityEditor.QuickSearchModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Managed/UnityEngine/UnityEditor.SceneTemplateModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Managed/UnityEngine/UnityEditor.TextCoreFontEngineModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Managed/UnityEngine/UnityEditor.TextCoreTextEngineModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIBuilderModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIElementsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIElementsSamplesModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIServiceModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.AndroidJNIModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.DSPGraphModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.GIModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputLegacyModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.LocalizationModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.ProfilerModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.StreamingModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubstanceModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubsystemsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreFontEngineModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreTextEngineModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.TLSModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsNativeModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.UmbraModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.UNETModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityCurlModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.VFXModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/mscorlib.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.ComponentModel.Composition.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Core.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Data.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Drawing.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.IO.Compression.FileSystem.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Net.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Numerics.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Runtime.Serialization.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.ServiceModel.Web.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Transactions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Web.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Windows.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Xml.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Xml.Linq.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Xml.Serialization.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/Microsoft.Win32.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.AppContext.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Buffers.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Collections.Concurrent.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Collections.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Collections.NonGeneric.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Collections.Specialized.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ComponentModel.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ComponentModel.EventBasedAsync.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ComponentModel.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ComponentModel.TypeConverter.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Console.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Data.Common.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Contracts.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Debug.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.FileVersionInfo.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Process.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.StackTrace.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.TextWriterTraceListener.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Tools.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.TraceSource.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Tracing.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Drawing.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Dynamic.Runtime.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Globalization.Calendars.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Globalization.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Globalization.Extensions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.Compression.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.Compression.ZipFile.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.FileSystem.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.FileSystem.DriveInfo.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.FileSystem.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.FileSystem.Watcher.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.IsolatedStorage.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.MemoryMappedFiles.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.Pipes.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.UnmanagedMemoryStream.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Linq.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Linq.Expressions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Linq.Parallel.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Linq.Queryable.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Memory.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Http.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.NameResolution.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.NetworkInformation.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Ping.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Requests.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Security.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Sockets.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.WebHeaderCollection.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.WebSockets.Client.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.WebSockets.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Numerics.Vectors.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ObjectModel.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.DispatchProxy.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Emit.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Emit.ILGeneration.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Emit.Lightweight.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Extensions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Resources.Reader.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Resources.ResourceManager.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Resources.Writer.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.CompilerServices.VisualC.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Extensions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Handles.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.InteropServices.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.InteropServices.RuntimeInformation.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Numerics.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Serialization.Formatters.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Serialization.Json.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Serialization.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Serialization.Xml.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Claims.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.Algorithms.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.Csp.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.Encoding.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.X509Certificates.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Principal.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.SecureString.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Text.Encoding.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Text.Encoding.Extensions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Text.RegularExpressions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Overlapped.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Tasks.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Tasks.Extensions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Tasks.Parallel.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Thread.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.ThreadPool.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Timer.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ValueTuple.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.ReaderWriter.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XDocument.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XmlDocument.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XmlSerializer.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XPath.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XPath.XDocument.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/NetStandard/ref/2.1.0/netstandard.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.Gradle.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.Types.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll"
+-r:"C:/Users/HiLab/Documents/GitHub/Hand-Interfaces/handinterfaces/Library/PackageCache/com.unity.collab-proxy@1.15.15/Lib/Editor/PlasticSCM/log4netPlastic.dll"
+-r:"C:/Users/HiLab/Documents/GitHub/Hand-Interfaces/handinterfaces/Library/PackageCache/com.unity.collab-proxy@1.15.15/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll"
+-r:"C:/Users/HiLab/Documents/GitHub/Hand-Interfaces/handinterfaces/Library/PackageCache/com.unity.collab-proxy@1.15.15/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll"
+-r:"C:/Users/HiLab/Documents/GitHub/Hand-Interfaces/handinterfaces/Library/PackageCache/com.unity.collab-proxy@1.15.15/Lib/Editor/PlasticSCM/unityplastic.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/Oculus.VR.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/Unity.TextMeshPro.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/UnityEditor.UI.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/UnityEngine.UI.ref.dll"
+"Assets/Oculus/Interaction/Runtime/Scripts/Attributes/InspectorButton.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Attributes/OptionalAttribute.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Collisions/ClosestPointToColliders.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Collisions/IsCapsuleWithinColliderApprox.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Collisions/IsPointWithinCollider.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Collisions/IsSphereWithinCollider.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Extensions/HashSetExtensions.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Extensions/MonoBehaviourStartExtensions.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Extensions/TransformExtensions.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Grab/FingerGrabAPI.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Grab/FingerPalmGrabAPI.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Grab/FingerPinchAPI.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Grab/FingerPinchGrabAPI.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Grab/FingerRawPinchAPI.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Grab/FingerRawPinchInjector.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Grab/GrabbingRule.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Grab/GrabTypeFlags.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Grab/HandGrab.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Grab/HandGrabAPI.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Grab/IFingerAPI.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Grab/Visuals/GrabStrengthIndicator.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/HandPosing/Recording/HandPoseRecordable.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/HandPosing/Recording/HandPoseRecorder.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/HandPosing/SnapSurfaces/BoxSurface.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/HandPosing/SnapSurfaces/ColliderSurface.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/HandPosing/SnapSurfaces/CylinderSurface.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/HandPosing/SnapSurfaces/ISnapSurface.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/HandPosing/SnapSurfaces/SnapSurfaceHelper.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/HandPosing/SnapSurfaces/SphereSurface.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/HandPosing/Visuals/HandGhost.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/HandPosing/Visuals/HandGhostProvider.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/HandPosing/Visuals/HandGrabInteractorVisual.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/HandPosing/Visuals/HandJointMap.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/HandPosing/Visuals/HandPuppet.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Input/Controllers/Controller.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Input/Controllers/ControllerDataAsset.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Input/Controllers/ControllerDataSourceConfig.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Input/Controllers/ControllerPrimitives.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Input/Controllers/ControllerRef.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Input/Controllers/IController.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Input/Controllers/IControllerDataModifier.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Input/DataModifier.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Input/DataSource.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Input/Hands/DataModifiers/DummyDataModifier.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Input/Hands/DataModifiers/FixedScaleDataModifier.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Input/Hands/DataModifiers/FixedScaleHand.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Input/Hands/DataModifiers/JointRotationHistoryHand.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Input/Hands/DataModifiers/JointRotationHistoryModifier.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Input/Hands/DataModifiers/LastKnownGoodDataModifier.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Input/Hands/DataModifiers/LastKnownGoodHand.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Input/Hands/DataModifiers/OneEuroFilterPositionDataModifier.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Input/Hands/DataModifiers/OneEuroFilterPositionHand.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Input/Hands/DataModifiers/OneEuroFilterRotationDataModifier.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Input/Hands/DataModifiers/OneEuroFilterRotationHand.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Input/Hands/DataModifiers/SyntheticHand.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Input/Hands/DataModifiers/SyntheticHandModifier.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Input/Hands/FingersMetadata.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Input/Hands/Hand.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Input/Hands/HandDataAsset.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Input/Hands/HandDataSourceConfig.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Input/Hands/HandJointsCache.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Input/Hands/HandPrimitives.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Input/Hands/HandRef.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Input/Hands/IHand.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Input/Hands/IHandSkeletonProvider.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Input/Hands/JointLocking.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Input/HMD/Hmd.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Input/HMD/HmdDataAsset.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Input/HMD/HmdDataSourceConfig.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Input/HMD/HmdRef.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Input/HMD/IHmd.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Input/ITrackingToWorldTransformer.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Input/OneEuroFilter/IOneEuroFilter.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilter.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterFactory.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterPropertyBlock.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Input/OVRIntegration/AnimatedHandOVR.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Input/OVRIntegration/FromOVRControllerDataSource.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Input/OVRIntegration/FromOVRControllerHandDataSource.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Input/OVRIntegration/FromOVRHandDataSource.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Input/OVRIntegration/FromOVRHmdDataSource.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Input/OVRIntegration/HandPhysicsCapsules.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Input/OVRIntegration/HandSkeletonOVR.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Input/OVRIntegration/InputDataProviderUpdateTriggerOVR.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Input/OVRIntegration/OVRCameraRigRef.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Input/OVRIntegration/OVRInputDeviceActiveState.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Input/OVRIntegration/OVRSkeletonData.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Input/OVRIntegration/OVRSkeletonDataProviders.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Input/OVRIntegration/SetDisplayRefresh.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Input/OVRIntegration/TrackingToWorldTransformerOVR.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Input/PoseOrigin.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Core/ActiveStateGroup.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Core/ActiveStateNot.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Core/ActiveStateSelector.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Core/ActiveStateTracker.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Core/CandidatePositionComparer.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Core/CollisionInteractionRegistry.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Core/ControllerActiveState.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Core/GameObjectActiveState.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Core/HandActiveState.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Core/IActiveState.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Core/ICandidatePosition.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Core/IInteractable.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Core/IInteractableFilter.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Core/IInteractableRegistry.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Core/IInteractor.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Core/IInteractorComparer.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Core/IInteractorDriver.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Core/Interactable.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Core/InteractableGroup.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Core/InteractableGroupView.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Core/InteractableRegistry.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Core/InteractableState.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Core/InteractableTriggerBroadcaster.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Core/Interactor.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Core/InteractorActiveState.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Core/InteractorComparer.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Core/InteractorDriver.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Core/InteractorDriverGroup.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Core/InteractorState.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Core/IRigidbodyRef.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Core/ISelector.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Core/MultiAction.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Core/TagInteractableFilter.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Core/TagSet.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Core/UniqueIdentifier.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Grabbable/Grabbable.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Grabbable/IGrabbable.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Grabbable/OneGrabFreeTransformer.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Grabbable/OneGrabPhysicsJointTransformer.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Grabbable/OneGrabRotateTransformer.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Grabbable/OneGrabTranslateTransformer.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Grabbable/PointableGrabbableConnection.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Grabbable/TwoGrabFreeTransformer.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Grabbable/TwoGrabPlaneTransformer.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Models/Grab/GrabInteractable.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Models/Grab/GrabInteractor.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Models/Grab/ITween.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Models/Grab/Tween.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Models/HandGrab/GrabPointsPoseFinder.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Models/HandGrab/HandGrabInteractable.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Models/HandGrab/HandGrabInteractableDataCollection.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Models/HandGrab/HandGrabInteractionUtilities.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Models/HandGrab/HandGrabInteractor.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Models/HandGrab/HandGrabPoint.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Models/HandGrab/HandPose.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Models/HandGrab/ISnapper.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Models/HandGrab/PoseMeasureParameters.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Models/HandGrab/PoseTravelData.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Models/HandGrab/SnapAddress.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Models/Poke/PokeInteractable.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Models/Poke/PokeInteractor.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Models/Poke/Visuals/HandPokeLimiterVisual.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Models/Poke/Visuals/PokeInteractableVisual.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Models/Ray/RayInteractable.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Models/Ray/RayInteractor.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Models/Ray/Visuals/ControllerRayVisual.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Models/Ray/Visuals/HandRayInteractorCursorVisual.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Models/Ray/Visuals/RayInteractorCursorVisual.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Models/Ray/Visuals/RayInteractorPinchVisual.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Pointable/IPointable.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Pointable/IPointableCanvas.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Pointable/PointableDebugVisual.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Pointable/PointableDelegate.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Pointable/PointableGroup.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Pointable/VirtualPointable.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Interaction/ProximityField/BoxProximityField.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Interaction/ProximityField/CircleProximityField.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Interaction/ProximityField/CylinderProximityField.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Interaction/ProximityField/IProximityField.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Interaction/ProximityField/PointProximityField.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Surfaces/IPointableSurface.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Surfaces/PointableCylinder.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Surfaces/PointablePlane.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Transformable/FloatConstraint.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Transformable/GrabPoint.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Transformable/InteractableTransformableConnection.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Transformable/ITransformable.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Transformable/ITransformer.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Transformable/OneHandFreeTransformer.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Transformable/OneHandPhysicsJointTransformer.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Transformable/OneHandRotateTransformer.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Transformable/OneHandTranslateTransformer.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Transformable/SnapPoint.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Transformable/Transformable.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Transformable/TwoHandFreeTransformer.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Transformable/TwoHandPlaneTransformer.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Visuals/BecomeChildOfTargetOnStart.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Visuals/HandVisual.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Visuals/InteractableColorVisual.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Visuals/InteractableDebugVisual.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Visuals/InteractorDebugVisual.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Visuals/SelectorDebugVisual.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/MaterialProperties/DotGridProperties.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/MaterialProperties/MaterialPropertyBlockEditor.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/MaterialProperties/RoundedBoxProperties.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/PoseDetection/ColliderContainsHandJointActiveState.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/PoseDetection/Debug/ActiveStateDebugVisual.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/PoseDetection/Debug/FingerFeatureSkeletalDebugVisual.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/PoseDetection/Debug/HandShapeSkeletalDebugVisual.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/PoseDetection/Debug/TransformFeatureDebugVisual.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/PoseDetection/Debug/TransformFeatureVectorDebugParentVisual.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/PoseDetection/Debug/TransformFeatureVectorDebugVisual.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/PoseDetection/Debug/TransformRecognizerDebugVisual.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/PoseDetection/FeatureConfigBuilder.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/PoseDetection/FeatureDescription.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/PoseDetection/FingerFeatureProperties.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/PoseDetection/FingerFeatureStateProvider.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/PoseDetection/FingerFeatureStateThresholds.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/PoseDetection/FingerShapes.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/PoseDetection/HmdOffset.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/PoseDetection/IFeatureStateThreshold.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/PoseDetection/IFeatureStateThresholds.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/PoseDetection/IFeatureThresholds.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/PoseDetection/JointDistanceActiveState.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/PoseDetection/Sequence.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/PoseDetection/SequenceActiveState.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/PoseDetection/ShapeRecognizer.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/PoseDetection/ShapeRecognizerActiveState.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/PoseDetection/TransformFeatureProperties.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/PoseDetection/TransformFeatureStateProvider.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/PoseDetection/TransformFeatureStateThresholds.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/PoseDetection/TransformFeatureValueProvider.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/PoseDetection/TransformRecognizerActiveState.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Selection/Controllers/ControllerOffset.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Selection/Controllers/ControllerPointerPose.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Selection/Controllers/ControllerSelector.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Selection/Hands/CenterEyeOffset.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Selection/Hands/ConicalFrustum.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Selection/Hands/HandJoint.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Selection/Hands/HandPinchOffset.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Selection/Hands/HandPointerPose.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Selection/Hands/HandTransformScaler.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Selection/Hands/HandWristOffset.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Selection/Hands/IndexPinchSelector.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Selection/Virtual/VirtualSelector.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Shapes/Cylinder.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Shapes/CylinderOrientation.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Shapes/ICurvedPlane.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Throw/ControllerPoseInputDevice.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Throw/HandPoseInputDevice.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Throw/IPoseInputDevice.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Throw/IVelocityCalculator.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Throw/StandardVelocityCalculator.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Unity/ActiveStateUnityEventWrapper.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Unity/CanvasMeshPointable.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Unity/GrabbableUnityEventWrapper.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Unity/InteractableUnityEventWrapper.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Unity/InteractionOVRCameraRig.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Unity/InteractorUnityEventWrapper.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Unity/PhysicsGrabbable.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Unity/PhysicsTransformable.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Unity/PointableCanvas.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Unity/PointableCanvasModule.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Unity/PointableCanvasUnityEventWrapper.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Unity/PointableUnityEventWrapper.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Unity/SelectorUnityEventWrapper.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Unity/ToggleDeselect.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Unity/TransformableUnityEventWrapper.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Unity/UnityCanvas/CanvasCylinder.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Unity/UnityCanvas/CanvasRect.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Unity/UnityCanvas/CanvasRenderTexture.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Unity/UnityCanvas/CanvasRenderTextureMesh.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Unity/UnityCanvas/RenderingMode.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Unity/UnityCanvas/UpdateCanvasSortingOrder.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Unity/UnityInfo.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Utils/ConeUtils.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Utils/PoseUtils.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Utils/ProgressCurve.cs"
+"Assets/Oculus/Interaction/Runtime/Scripts/Utils/VersionTextVisual.cs"
+"Assets/Oculus/Interaction/Runtime/ThirdParty/InterfaceSupport/InterfaceAttribute.cs"
+"Assets/Oculus/Interaction/Runtime/ThirdParty/LeapMotion/VelocityCalculatorUtilMethods.cs"
+-langversion:9.0
+/unsafe+
+/deterministic
+/optimize+
+/debug:portable
+/nologo
+/RuntimeMetadataVersion:v4.0.30319
+
+/nowarn:0169
+/nowarn:0649
+/nowarn:1701
+/nowarn:1702
+/utf8output
+/preferreduilang:en-US
