@@ -1,8 +1,13 @@
 ScriptsOnlyBuild:
   usedScripts:
+    Assembly-CSharp-Editor.dll:
+    - ReadmeEditor
     Assembly-CSharp.dll:
+    - CallObjects
     - DilmerGames.VRHandDraw
-    - GestureRetrieval_IoT
+    - GestureDetection
+    - OculusSampleFramework.ButtonController
+    - OculusSampleFramework.ButtonTriggerZone
     - OculusSampleFramework.FingerTipPokeTool
     - OculusSampleFramework.FingerTipPokeToolView
     - OculusSampleFramework.HandsManager
@@ -10,15 +15,15 @@ ScriptsOnlyBuild:
     - OculusSampleFramework.InteractableToolsInputRouter
     - OculusSampleFramework.RayTool
     - OculusSampleFramework.RayToolView
+    - OculusSampleFramework.TrainButtonVisualController
     - OvrAvatarSettings
     - Readme
-    - TCPtestServer
-    - colorpalette_i
-    - joystick_i
+    - SceneChanger
+    - StateFlag
+    - VRHandClick
+    - VRHandGrab
     - lb_Bird
     - lb_CrowProximity
-    - lightswitch_i
-    - snapCam
     Oculus.Platform.dll:
     - Oculus.Platform.PlatformSettings
     Oculus.Spatializer.dll:
@@ -28,12 +33,12 @@ ScriptsOnlyBuild:
     - OVRConfig
     Oculus.VR.dll:
     - OVRCameraRig
+    - OVRControllerHelper
     - OVRHand
     - OVRHandTest
     - OVRManager
     - OVRMesh
     - OVRMeshRenderer
-    - OVRPassthroughLayer
     - OVRRuntimeSettings
     - OVRScreenFade
     - OVRSkeleton
@@ -45,6 +50,7 @@ ScriptsOnlyBuild:
     - TMPro.TMP_Settings
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
+    - TMPro.TextMeshPro
     Unity.XR.ARCore.Editor.dll:
     - UnityEditor.XR.ARCore.ARCoreSettings
     Unity.XR.Management.Editor.dll:
@@ -66,13 +72,17 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
     UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.StandaloneInputModule
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
+    - UnityEngine.UI.RawImage
     - UnityEngine.UI.Text
   serializedClasses:
     Assembly-CSharp:
     - Gesture
+    - OculusSampleFramework.Interactable/InteractableStateArgsEvent
     Oculus.VR.Editor:
     - Assets.Oculus.VR.Editor.AssetConfigList
     Unity.TextMeshPro:
@@ -89,6 +99,7 @@ ScriptsOnlyBuild:
     - TMPro.TMP_SpriteCharacter
     - TMPro.TMP_SpriteGlyph
     - TMPro.TMP_Style
+    - TMPro.VertexGradient
     UnityEngine.CoreModule:
     - UnityEngine.Events.PersistentCallGroup
     - UnityEngine.Events.UnityEvent
@@ -102,7 +113,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
   methodsToPreserve: []
   sceneClasses:
-    Assets/PaperScenes/IoT/IoT.unity:
+    Assets/Scenes/Demo.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -125,6 +136,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 54
       Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
     - Class: 74
@@ -135,7 +148,7 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 83
       Script: {instanceID: 0}
-    - Class: 84
+    - Class: 89
       Script: {instanceID: 0}
     - Class: 90
       Script: {instanceID: 0}
@@ -148,84 +161,106 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1832}
+      Script: {instanceID: 1830}
     - Class: 114
-      Script: {instanceID: 1836}
+      Script: {instanceID: 1834}
     - Class: 114
-      Script: {instanceID: 1840}
+      Script: {instanceID: 1838}
     - Class: 114
-      Script: {instanceID: 1898}
+      Script: {instanceID: 1896}
     - Class: 114
-      Script: {instanceID: 2098}
+      Script: {instanceID: 1990}
     - Class: 114
-      Script: {instanceID: 2146}
+      Script: {instanceID: 2096}
     - Class: 114
-      Script: {instanceID: 2298}
+      Script: {instanceID: 2144}
     - Class: 114
-      Script: {instanceID: 2346}
+      Script: {instanceID: 2296}
     - Class: 114
-      Script: {instanceID: 2428}
+      Script: {instanceID: 2344}
     - Class: 114
-      Script: {instanceID: 2440}
+      Script: {instanceID: 2426}
     - Class: 114
-      Script: {instanceID: 2584}
+      Script: {instanceID: 2438}
     - Class: 114
-      Script: {instanceID: 2930}
+      Script: {instanceID: 2556}
     - Class: 114
-      Script: {instanceID: 3016}
+      Script: {instanceID: 2582}
     - Class: 114
-      Script: {instanceID: 3416}
+      Script: {instanceID: 2844}
     - Class: 114
-      Script: {instanceID: 3620}
+      Script: {instanceID: 2848}
     - Class: 114
-      Script: {instanceID: 3626}
+      Script: {instanceID: 2926}
     - Class: 114
-      Script: {instanceID: 3866}
+      Script: {instanceID: 3412}
     - Class: 114
-      Script: {instanceID: 4044}
+      Script: {instanceID: 3612}
     - Class: 114
-      Script: {instanceID: 4170}
+      Script: {instanceID: 3618}
     - Class: 114
-      Script: {instanceID: 4294}
+      Script: {instanceID: 3752}
     - Class: 114
-      Script: {instanceID: 4312}
+      Script: {instanceID: 3850}
     - Class: 114
-      Script: {instanceID: 4324}
+      Script: {instanceID: 4188}
     - Class: 114
-      Script: {instanceID: 4374}
+      Script: {instanceID: 4274}
     - Class: 114
-      Script: {instanceID: 4652}
+      Script: {instanceID: 4282}
     - Class: 114
-      Script: {instanceID: 4856}
+      Script: {instanceID: 4300}
     - Class: 114
-      Script: {instanceID: 4910}
+      Script: {instanceID: 4362}
     - Class: 114
-      Script: {instanceID: 5414}
+      Script: {instanceID: 4388}
     - Class: 114
-      Script: {instanceID: 5938}
+      Script: {instanceID: 4520}
     - Class: 114
-      Script: {instanceID: 6018}
+      Script: {instanceID: 4640}
     - Class: 114
-      Script: {instanceID: 6336}
+      Script: {instanceID: 4844}
     - Class: 114
-      Script: {instanceID: 6592}
+      Script: {instanceID: 5400}
     - Class: 114
-      Script: {instanceID: 7446}
+      Script: {instanceID: 5920}
     - Class: 114
-      Script: {instanceID: 7550}
+      Script: {instanceID: 5924}
     - Class: 114
-      Script: {instanceID: 7658}
+      Script: {instanceID: 5978}
     - Class: 114
-      Script: {instanceID: 7738}
+      Script: {instanceID: 6000}
     - Class: 114
-      Script: {instanceID: 8294}
+      Script: {instanceID: 6318}
     - Class: 114
-      Script: {instanceID: 24378}
+      Script: {instanceID: 6494}
+    - Class: 114
+      Script: {instanceID: 6572}
+    - Class: 114
+      Script: {instanceID: 7308}
+    - Class: 114
+      Script: {instanceID: 7426}
+    - Class: 114
+      Script: {instanceID: 7638}
+    - Class: 114
+      Script: {instanceID: 7718}
+    - Class: 114
+      Script: {instanceID: 7820}
+    - Class: 114
+      Script: {instanceID: 8062}
+    - Class: 114
+      Script: {instanceID: 8156}
+    - Class: 114
+      Script: {instanceID: 8270}
+    - Class: 114
+      Script: {instanceID: 26042}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
       Script: {instanceID: 0}
     - Class: 135
+      Script: {instanceID: 0}
+    - Class: 136
       Script: {instanceID: 0}
     - Class: 137
       Script: {instanceID: 0}
@@ -238,8 +273,6 @@ ScriptsOnlyBuild:
     - Class: 198
       Script: {instanceID: 0}
     - Class: 199
-      Script: {instanceID: 0}
-    - Class: 208
       Script: {instanceID: 0}
     - Class: 213
       Script: {instanceID: 0}
@@ -1118,12 +1151,6 @@ ScriptsOnlyBuild:
     className: ContentSizeFitter
   - hash:
       serializedVersion: 2
-      Hash: 19273e6521c69a176b5925fdde0eadc2
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Demo
-  - hash:
-      serializedVersion: 2
       Hash: 1eb9aed3cd6453fbc580cf51127908af
     assemblyName: Oculus.Platform.dll
     namespaceName: Oculus.Platform
@@ -1412,12 +1439,6 @@ ScriptsOnlyBuild:
     className: ConicalFrustum
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: TCPtestServer
-  - hash:
-      serializedVersion: 2
       Hash: c1180c254ccb8691955aa114885df28d
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -1458,12 +1479,6 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Mask
-  - hash:
-      serializedVersion: 2
-      Hash: 08fac953be7a4232feff05ca5a69f313
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: GrabbingBehaviour
   - hash:
       serializedVersion: 2
       Hash: 8f71d2ab3258f223c82a0616125cd43f
@@ -2264,12 +2279,6 @@ ScriptsOnlyBuild:
     className: SelfRotate
   - hash:
       serializedVersion: 2
-      Hash: 0f7077d459244cf893e4da3e73411aec
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: newTCPClient
-  - hash:
-      serializedVersion: 2
       Hash: 4a48d09e80f6cb7986c72a3850d64205
     assemblyName: Oculus.VR.dll
     namespaceName: 
@@ -2418,12 +2427,6 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: AppDeeplinkUI
-  - hash:
-      serializedVersion: 2
-      Hash: 4afd9a6a0bea171d5e666b030d480817
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: VirtualTrigger
   - hash:
       serializedVersion: 2
       Hash: d29554da4f32756eaad6ec0d568c5648
@@ -2732,12 +2735,6 @@ ScriptsOnlyBuild:
     className: OvrAvatarSettingsEditor
   - hash:
       serializedVersion: 2
-      Hash: 2cc215ef5a252b5df9d4b9a98c37946e
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ManualFreezeRotation
-  - hash:
-      serializedVersion: 2
       Hash: 9dbf61968130a92e55f939dfadbabab3
     assemblyName: Oculus.Interaction.dll
     namespaceName: Oculus.Interaction.HandPosing.Visuals
@@ -2994,6 +2991,12 @@ ScriptsOnlyBuild:
     assemblyName: Oculus.Interaction.dll
     namespaceName: Oculus.Interaction.Input
     className: Hand
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TCPtestServer
   - hash:
       serializedVersion: 2
       Hash: ba52ee8853451f5daeb8ff6fe24d62cc
@@ -3608,12 +3611,6 @@ ScriptsOnlyBuild:
     className: HandPhysicsCapsules
   - hash:
       serializedVersion: 2
-      Hash: 0182aac3fd8bfdeff27021b9548c3a6a
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: JoystickGrabbable
-  - hash:
-      serializedVersion: 2
       Hash: 994f6d909dbeb177c155fe4141a7ed4c
     assemblyName: Oculus.Interaction.dll
     namespaceName: Oculus.Interaction.Input
@@ -3836,12 +3833,6 @@ ScriptsOnlyBuild:
     className: MenuDebugUI
   - hash:
       serializedVersion: 2
-      Hash: e5f48b2b80e286dd3c255a6ec05398f5
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ButtonListener
-  - hash:
-      serializedVersion: 2
       Hash: 0ac1315127a0a4ad8f88592e400d345d
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -3884,5 +3875,5 @@ ScriptsOnlyBuild:
     className: TrackSegment
   platform: 13
   scenePathNames:
-  - Assets/PaperScenes/IoT/IoT.unity
-  playerPath: C:/Users/HiLab/Downloads/iot2.apk
+  - Assets/Scenes/Demo.unity
+  playerPath: C:/Users/HiLab/Downloads/demo.apk

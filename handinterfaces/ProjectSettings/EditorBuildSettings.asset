@@ -23,16 +23,16 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/user study/Inter_VG.unity
     guid: a695c50989172ef41bcf9323f8c3d8bb
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Demo.unity
     guid: 241b8ceb8ae6c0d4c9ee8074c9b24059
   - enabled: 0
-    path: Assets/lab_three_lights/IoTsensing.unity
-    guid: eb5fadc7ec880854ca2af0972333ec4f
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 0
     path: Assets/Example Applications/Entertainment/Entertainment.unity
     guid: 71f6e2648b8f9db41b7721ba88522977
-  - enabled: 1
+  - enabled: 0
     path: Assets/Example Applications/IoT/IoT.unity
     guid: 1f0516c3e5b29564b9de72b23ad937ee
   m_configObjects:

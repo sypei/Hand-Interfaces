@@ -394,7 +394,9 @@
 "Assets/Example Applications/IoT/TCPServer.cs"
 "Assets/Example Applications/IoT/TCPtestClient.cs"
 "Assets/Example Applications/snapCam.cs"
+"Assets/FingerKeys_Demo.cs"
 "Assets/GestureDetection_Demo.cs"
+"Assets/JoystickControlled_Demo.cs"
 "Assets/Oculus/Avatar/Samples/AvatarGallery/Scripts/OvrAvatarTestDriver.cs"
 "Assets/Oculus/Avatar/Samples/GripPoses/Scripts/PoseEditHelper.cs"
 "Assets/Oculus/Avatar/Samples/LocalAvatar/Scripts/GazeTargetSpawner.cs"
@@ -564,6 +566,7 @@
 "Assets/Other Assets/Magnets/Assets/Scripts/magnet.cs"
 "Assets/Other Assets/RPG Food & Drinks Pack/Assets/Scripts/Consumer.cs"
 "Assets/Other Assets/RPG Food & Drinks Pack/Assets/Scripts/Rotator.cs"
+"Assets/PlaneUsage_Demo.cs"
 "Assets/Scripts/BezierCurve.cs"
 "Assets/Scripts/book_i.cs"
 "Assets/Scripts/CallObjects.cs"
@@ -610,6 +613,8 @@
 "Assets/Tools/EzySliceExamples/Scripts/RuntimeShatterExample.cs"
 "Assets/Tools/EzySliceExamples/Scripts/ShatterExample.cs"
 "Assets/Tools/OBJExport/OBJExporter.cs"
+"Assets/VirtualPiano_Demo.cs"
+"Assets/VirtualScissors_Demo.cs"
 -langversion:9.0
 
 /deterministic
