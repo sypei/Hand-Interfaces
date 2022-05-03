@@ -10,6 +10,7 @@ public class GestureDetection_Demo : MonoBehaviour
     public float threshold = 0.02f;// too small, will find nothing (too strict)
     public OVRSkeleton skeleton;
     public List<Gesture> gestures;
+    public Gesture currentGesture_stable;
     public bool debugMode = true;
     public TextMeshPro ModeLogger;
     public bool writeModeLogger = true;
@@ -22,6 +23,9 @@ public class GestureDetection_Demo : MonoBehaviour
     private GameObject joystick;
     private GameObject thumbpiano;
     private GameObject scissors;
+    private float startTime = 0f;
+    private float timer = 0f;
+    public float holdTime = 0.2f;
    
     private Dictionary<string, GameObject> gesturedict;
     private GameObject[] assets;
@@ -31,7 +35,8 @@ public class GestureDetection_Demo : MonoBehaviour
     void Start()
     {
         fingerBones = new List<OVRBone>(skeleton.Bones);
-        previousGesture = new Gesture();        
+        previousGesture = new Gesture();    
+        currentGesture_stable = new Gesture();    
         lefthand = GameObject.FindGameObjectsWithTag("lefthand")[0];
         //Hand Interface
         joystick = GameObject.FindGameObjectsWithTag("joystick")[0];
@@ -73,13 +78,30 @@ public class GestureDetection_Demo : MonoBehaviour
 
             Gesture currentGesture = Recognize();
 
-            bool hasRecognized = !currentGesture.Equals(new Gesture());
-            //check if gesture changes
-            if (hasRecognized && !currentGesture.Equals(previousGesture))
-            {
+            if (currentGesture.name != null){
+                if (currentGesture.name != previousGesture.name){
+                    startTime = Time.time;
+                    timer = startTime;
+                    // Debug.Log("Start to count for this gesture: "+currentGesture.name);
+                } else if (currentGesture.name == previousGesture.name){
+                    timer += Time.deltaTime;
+                    Debug.Log("Time: "+timer);
+                    if (timer > (startTime + holdTime))
+                    {
+                        currentGesture_stable = currentGesture;
+                        // Debug.Log("get stable gesture: "+currentGesture_stable.name);
+                    }
+                }
                 previousGesture = currentGesture;
-                currentGesture.onRecognized.Invoke();
             }
+
+            // bool hasRecognized = !currentGesture.Equals(new Gesture());
+            // //check if gesture changes
+            // if (hasRecognized && !currentGesture.Equals(previousGesture))
+            // {
+            //     previousGesture = currentGesture;
+            //     currentGesture.onRecognized.Invoke();
+            // }
 
             currentInterface = currentGesture.name;
             

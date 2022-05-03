@@ -18,7 +18,6 @@ ScriptsOnlyBuild:
     - OculusSampleFramework.TrainButtonVisualController
     - OvrAvatarSettings
     - PlaneUsage_Demo
-    - Readme
     - ResetButton
     - SelfRotate
     - StateFlag
@@ -68,8 +67,10 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -3298,7 +3299,7 @@ ScriptsOnlyBuild:
     className: OneEuroFilterPositionDataModifier
   - hash:
       serializedVersion: 2
-      Hash: b3ee7a1ba38b110c45b3e47944295275
+      Hash: 9b66d28946b6ba5973d766a461699946
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GestureDetection_Demo
@@ -3911,4 +3912,4 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/Scenes/Demo_CHI.unity
-  playerPath: C:/Users/HiLab/Downloads/demo2.apk
+  playerPath: C:/Users/HiLab/Downloads/demo3.apk
