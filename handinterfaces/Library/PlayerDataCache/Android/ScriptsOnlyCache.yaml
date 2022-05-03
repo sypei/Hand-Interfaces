@@ -1,11 +1,11 @@
 ScriptsOnlyBuild:
   usedScripts:
-    Assembly-CSharp-Editor.dll:
-    - ReadmeEditor
     Assembly-CSharp.dll:
-    - CallObjects
     - DilmerGames.VRHandDraw
-    - GestureDetection
+    - FingerKeys
+    - FingerKeys_Demo
+    - GestureDetection_Demo
+    - JoystickControlled_Demo
     - OculusSampleFramework.ButtonController
     - OculusSampleFramework.ButtonTriggerZone
     - OculusSampleFramework.FingerTipPokeTool
@@ -17,11 +17,14 @@ ScriptsOnlyBuild:
     - OculusSampleFramework.RayToolView
     - OculusSampleFramework.TrainButtonVisualController
     - OvrAvatarSettings
+    - PlaneUsage_Demo
     - Readme
-    - SceneChanger
+    - ResetButton
+    - SelfRotate
     - StateFlag
-    - VRHandClick
     - VRHandGrab
+    - VirtualPiano_Demo
+    - VirtualScissors_Demo
     - lb_Bird
     - lb_CrowProximity
     Oculus.Platform.dll:
@@ -43,6 +46,9 @@ ScriptsOnlyBuild:
     - OVRScreenFade
     - OVRSkeleton
     - OVRSkeletonRenderer
+    Unity.ProBuilder.dll:
+    - UnityEngine.ProBuilder.PolyShape
+    - UnityEngine.ProBuilder.ProBuilderMesh
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro.dll:
@@ -51,8 +57,6 @@ ScriptsOnlyBuild:
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
     - TMPro.TextMeshPro
-    Unity.XR.ARCore.Editor.dll:
-    - UnityEditor.XR.ARCore.ARCoreSettings
     Unity.XR.Management.Editor.dll:
     - UnityEditor.XR.Management.XRGeneralSettingsPerBuildTarget
     Unity.XR.Management.dll:
@@ -72,12 +76,9 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
     UnityEngine.UI.dll:
-    - UnityEngine.EventSystems.EventSystem
-    - UnityEngine.EventSystems.StandaloneInputModule
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
-    - UnityEngine.UI.RawImage
     - UnityEngine.UI.Text
   serializedClasses:
     Assembly-CSharp:
@@ -113,7 +114,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
   methodsToPreserve: []
   sceneClasses:
-    Assets/Scenes/Demo.unity:
+    Assets/Scenes/Demo_CHI.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -169,8 +170,6 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1896}
     - Class: 114
-      Script: {instanceID: 1990}
-    - Class: 114
       Script: {instanceID: 2096}
     - Class: 114
       Script: {instanceID: 2144}
@@ -183,77 +182,77 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2438}
     - Class: 114
-      Script: {instanceID: 2556}
-    - Class: 114
       Script: {instanceID: 2582}
     - Class: 114
-      Script: {instanceID: 2844}
+      Script: {instanceID: 2720}
     - Class: 114
-      Script: {instanceID: 2848}
+      Script: {instanceID: 2850}
     - Class: 114
-      Script: {instanceID: 2926}
+      Script: {instanceID: 2928}
     - Class: 114
-      Script: {instanceID: 3412}
+      Script: {instanceID: 3374}
     - Class: 114
-      Script: {instanceID: 3612}
+      Script: {instanceID: 3414}
     - Class: 114
-      Script: {instanceID: 3618}
+      Script: {instanceID: 3614}
     - Class: 114
-      Script: {instanceID: 3752}
+      Script: {instanceID: 3620}
     - Class: 114
-      Script: {instanceID: 3850}
+      Script: {instanceID: 3754}
     - Class: 114
-      Script: {instanceID: 4188}
+      Script: {instanceID: 3852}
     - Class: 114
-      Script: {instanceID: 4274}
+      Script: {instanceID: 4160}
     - Class: 114
-      Script: {instanceID: 4282}
+      Script: {instanceID: 4192}
     - Class: 114
-      Script: {instanceID: 4300}
+      Script: {instanceID: 4286}
     - Class: 114
-      Script: {instanceID: 4362}
+      Script: {instanceID: 4304}
     - Class: 114
-      Script: {instanceID: 4388}
+      Script: {instanceID: 4366}
     - Class: 114
-      Script: {instanceID: 4520}
+      Script: {instanceID: 4524}
     - Class: 114
-      Script: {instanceID: 4640}
+      Script: {instanceID: 4644}
     - Class: 114
-      Script: {instanceID: 4844}
+      Script: {instanceID: 4670}
     - Class: 114
-      Script: {instanceID: 5400}
+      Script: {instanceID: 4850}
     - Class: 114
-      Script: {instanceID: 5920}
+      Script: {instanceID: 5406}
     - Class: 114
-      Script: {instanceID: 5924}
+      Script: {instanceID: 5458}
     - Class: 114
-      Script: {instanceID: 5978}
+      Script: {instanceID: 5918}
     - Class: 114
-      Script: {instanceID: 6000}
+      Script: {instanceID: 5928}
     - Class: 114
-      Script: {instanceID: 6318}
+      Script: {instanceID: 5932}
     - Class: 114
-      Script: {instanceID: 6494}
+      Script: {instanceID: 5986}
     - Class: 114
-      Script: {instanceID: 6572}
+      Script: {instanceID: 6008}
     - Class: 114
-      Script: {instanceID: 7308}
+      Script: {instanceID: 6326}
     - Class: 114
-      Script: {instanceID: 7426}
+      Script: {instanceID: 6580}
     - Class: 114
-      Script: {instanceID: 7638}
+      Script: {instanceID: 6976}
     - Class: 114
-      Script: {instanceID: 7718}
+      Script: {instanceID: 7318}
     - Class: 114
-      Script: {instanceID: 7820}
+      Script: {instanceID: 7436}
     - Class: 114
-      Script: {instanceID: 8062}
+      Script: {instanceID: 7648}
     - Class: 114
-      Script: {instanceID: 8156}
+      Script: {instanceID: 7728}
     - Class: 114
-      Script: {instanceID: 8270}
+      Script: {instanceID: 7830}
     - Class: 114
-      Script: {instanceID: 26042}
+      Script: {instanceID: 8166}
+    - Class: 114
+      Script: {instanceID: 8280}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -741,6 +740,12 @@ ScriptsOnlyBuild:
     assemblyName: Oculus.Interaction.dll
     namespaceName: Oculus.Interaction.Input
     className: OneEuroFilterPositionHand
+  - hash:
+      serializedVersion: 2
+      Hash: 746ff948c20da79683e5ce3e19181b15
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: VirtualPiano_Demo
   - hash:
       serializedVersion: 2
       Hash: db3b3db4202c7f480130e01f2b48ade3
@@ -1529,6 +1534,12 @@ ScriptsOnlyBuild:
     className: JointRotationHistoryHand
   - hash:
       serializedVersion: 2
+      Hash: 1f7f4226b8730de9e0d093b9bfa4cd8a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: VirtualScissors_Demo
+  - hash:
+      serializedVersion: 2
       Hash: 5be7fee297331064bc0d0b0326562ba8
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -1851,6 +1862,12 @@ ScriptsOnlyBuild:
     assemblyName: Oculus.Platform.dll
     namespaceName: Oculus.Platform.Samples.VrBoardGame
     className: IAPManager
+  - hash:
+      serializedVersion: 2
+      Hash: 83a19bb54e1a8eb531c88af2e3eb46b9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FingerKeys_Demo
   - hash:
       serializedVersion: 2
       Hash: 8cf111447f1f4754264a4de62c3f57df
@@ -2507,6 +2524,12 @@ ScriptsOnlyBuild:
     className: TransformableUnityEventWrapper
   - hash:
       serializedVersion: 2
+      Hash: 384a787f6b2ac940729b958cc9062078
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: JoystickControlled_Demo
+  - hash:
+      serializedVersion: 2
       Hash: b7a41f820cdf22a536704c04ab926ad2
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -3089,6 +3112,12 @@ ScriptsOnlyBuild:
     className: HandGhostProvider
   - hash:
       serializedVersion: 2
+      Hash: 9dfadd20de211d8dae2b31330d9c2096
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlaneUsage_Demo
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Facebook.WitAI.dll
     namespaceName: Facebook.WitAi.Lib
@@ -3267,6 +3296,12 @@ ScriptsOnlyBuild:
     assemblyName: Oculus.Interaction.dll
     namespaceName: Oculus.Interaction.Deprecated
     className: OneEuroFilterPositionDataModifier
+  - hash:
+      serializedVersion: 2
+      Hash: b3ee7a1ba38b110c45b3e47944295275
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GestureDetection_Demo
   - hash:
       serializedVersion: 2
       Hash: a81d4c2c1cf3ad164d277d927a193679
@@ -3875,5 +3910,5 @@ ScriptsOnlyBuild:
     className: TrackSegment
   platform: 13
   scenePathNames:
-  - Assets/Scenes/Demo.unity
-  playerPath: C:/Users/HiLab/Downloads/demo.apk
+  - Assets/Scenes/Demo_CHI.unity
+  playerPath: C:/Users/HiLab/Downloads/demo2.apk
