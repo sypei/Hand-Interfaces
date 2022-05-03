@@ -20,15 +20,15 @@ public class GestureDetection_Demo : MonoBehaviour
     private bool thereAreBones = false;
     private GameObject lefthand;
     //Hand Interface
-    private GameObject joystick;
-    private GameObject thumbpiano;
+    // private GameObject joystick;
+    // private GameObject thumbpiano;
     private GameObject scissors;
     private float startTime = 0f;
     private float timer = 0f;
     public float holdTime = 0.2f;
    
     private Dictionary<string, GameObject> gesturedict;
-    private GameObject[] assets;
+    // private GameObject[] assets;
     private string currentInterface;
 
     // Start is called before the first frame update
@@ -39,15 +39,15 @@ public class GestureDetection_Demo : MonoBehaviour
         currentGesture_stable = new Gesture();    
         lefthand = GameObject.FindGameObjectsWithTag("lefthand")[0];
         //Hand Interface
-        joystick = GameObject.FindGameObjectsWithTag("joystick")[0];
-        thumbpiano = GameObject.FindGameObjectsWithTag("thumbpiano")[0];
+        // joystick = GameObject.FindGameObjectsWithTag("joystick")[0];
+        // thumbpiano = GameObject.FindGameObjectsWithTag("thumbpiano")[0];
         scissors = GameObject.FindGameObjectsWithTag("scissors")[0];
-        assets = GameObject.FindGameObjectsWithTag("assets");
+        // assets = GameObject.FindGameObjectsWithTag("assets");
 
         gesturedict = new Dictionary<string, GameObject>()
         {
-            {"Joystick", joystick},
-            {"ThumbPiano", thumbpiano},
+            // {"Joystick", joystick},
+            // {"ThumbPiano", thumbpiano},
             {"Scissors", scissors}
         };
 
@@ -55,7 +55,7 @@ public class GestureDetection_Demo : MonoBehaviour
             //ges.Value.SetActive(false);
             ChildrenRendering(ges.Value, false);
         lefthand.GetComponent<Renderer>().enabled = true;
-        RelatedAssetsRendering();
+        // RelatedAssetsRendering();
     }
 
     // Update is called once per frame
@@ -107,10 +107,10 @@ public class GestureDetection_Demo : MonoBehaviour
             
             GestureLogger.text="Current Gesture:"+currentGesture.name;
             HandInterfaceRendering(currentGesture);
-            RelatedAssetsRendering();
+            // RelatedAssetsRendering();
             if (writeModeLogger)
             {
-                ModeLogger.text="Demo - Hand Interface";
+                ModeLogger.text="Scissors Demo - Hand Interface";
             }
         }
     }
@@ -191,19 +191,20 @@ public class GestureDetection_Demo : MonoBehaviour
     }
     void RelatedAssetsRendering()
     {
-        foreach(var asset in assets)
-        {
-            //disable themselves
-            asset.GetComponent<Renderer>().enabled = false;
-            //disable their children as well
-            ChildrenRendering(asset, false);
-        }
+        // foreach(var asset in assets)
+        // {
+        //     //disable themselves
+        //     asset.GetComponent<Renderer>().enabled = false;
+        //     //disable their children as well
+        //     ChildrenRendering(asset, false);
+        // }
         FindByLayerRendering(3,false);//cuttable layers
 
-        if(currentInterface=="Joystick"){
-            FindByNameRendering("JoystickControlledCube", true);
-            FindByNameRendering("JoystickResetButton", true);
-        } else if(currentInterface=="Scissors"){
+        // if(currentInterface=="Joystick"){
+        //     FindByNameRendering("JoystickControlledCube", true);
+        //     FindByNameRendering("JoystickResetButton", true);
+        // } else 
+        if(currentInterface=="Scissors"){
             FindByLayerRendering(3,true);
         }
     }

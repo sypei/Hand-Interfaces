@@ -11,6 +11,9 @@ public class VirtualScissors_Demo : MonoBehaviour
     private GameObject blade_1;
     [SerializeField]
     private GameObject blade_2;
+    [SerializeField]
+    private AudioSource sfx;
+
     
     [SerializeField]
     private float distanceThreshold = 0.03f;
@@ -85,7 +88,11 @@ public class VirtualScissors_Demo : MonoBehaviour
            
         }
         ScissorsInteractionEnabler();
-        ScissorsAnimation();        
+        ScissorsAnimation(); 
+        if (IsCutting == true){
+            sfx.Play();
+            Debug.Log("cutting sound");
+        }        
     }
 
     private float DistanceCalculator(GameObject finger_2,GameObject finger_1)
@@ -123,10 +130,11 @@ public class VirtualScissors_Demo : MonoBehaviour
         if (currentInterface=="Scissors")
         {
             currentState = (h2h_distance > distanceThreshold); //false if in the proximity
-            IsCutting = currentState && !lastState;            
+            IsCutting = currentState && !lastState;             
             lastState = currentState;                
             
         }
+        
     }
 
     GameObject[] FindGameObjectsInLayer(int layer)

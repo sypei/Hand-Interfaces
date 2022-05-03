@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: sypei
-  productName: demo
+  productName: scissors
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -134,7 +134,7 @@ PlayerSettings:
     16:10: 1
     16:9: 1
     Others: 1
-  bundleVersion: 0.3
+  bundleVersion: 0.1
   preloadedAssets:
   - {fileID: 5794897097572507780, guid: 04a1f1943d42f754aae68bf1f655eea1, type: 2}
   - {fileID: 11400000, guid: 940b4bad926ad204e843829a0ab72271, type: 2}
