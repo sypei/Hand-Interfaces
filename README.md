@@ -31,9 +31,9 @@ Further, Hand Interfaces not only supports **object retrieval** but also **inter
 </br>
 
 ## Quick Start
-If you happen to have a Meta Oculus Quest headset, we have a minimal app for you to install easily. You only need the scissors.apk in this repo, nothing else. The app contains a pair of scissors. You can perform a peace gesture to retrieve the scissors in the air, and close your index and middle fingers to snip virtual objects in front of you (e.g. a cake, a bread, or even a phone!).<br>
+If you happen to have a Meta Oculus Quest headset, we have a minimal app for you to install easily. You only need the Scissors_Demo.apk in this repo, nothing else. The app contains a pair of scissors. You can perform a peace gesture to retrieve the scissors in the air, and close your index and middle fingers to snip virtual objects in front of you (e.g. a cake, a bread, or even a phone!).<br>
 To install it, please 
-1. Download the scissors.apk in this repo.
+1. Download the Scissors_Demo.apk in this repo.
 2. Make sure your Quest account has enabled developer mode. [tutorial here]
 3. Sideload the apk onto your Quest headset through [Oculus Developer Hub](https://developer.oculus.com/documentation/unity/ts-odh/), or [SideQuest](https://sidequestvr.com/setup-howto) or [ADB commands](https://developer.oculus.com/documentation/native/android/ts-adb/).
 4. Find the apk file in your Oculus library - unknown sources. Have fun!
