@@ -2,23 +2,27 @@
 Siyou Pei, Alexander Chen, Jaewook Lee, Yang Zhang :trophy: CHI '22 Honorable Mention</br></br>
 ![A user imitates a joystick with a thumb-up pose and manipulates the joystick by grabbing the thumb with another hand](https://github.com/sypei/personal-website/blob/main/research/HandInterfaces/HandInterfaces.png)</br>
 
-📘 [paper](https://dl.acm.org/doi/10.1145/3491102.3501898)
-
-🎬 [preview](https://www.youtube.com/watch?v=ATg3M4QsfEQ)
-
-🎙️ [full presentation](https://www.youtube.com/watch?v=ATg3M4QsfEQ)
-
+📘 [paper](https://dl.acm.org/doi/10.1145/3491102.3501898) &emsp; 
+🎬 [preview](https://www.youtube.com/watch?v=ATg3M4QsfEQ) &emsp;
+🎙️ [full presentation](https://www.youtube.com/watch?v=ATg3M4QsfEQ) &emsp;
 :desktop_computer: [lab website](https://hilab.dev/)
 
 ## Table of Contents
-[Motivation](https://github.com/sypei/Hand-Interfaces#motivation)<br>
-[What does Hand Interfaces do?](https://github.com/sypei/Hand-Interfaces#what-does-hand-interfaces-do)<br>
-[Quick Start](https://github.com/sypei/Hand-Interfaces#quick-start)<br>
-[Full Project Implementation](https://github.com/sypei/Hand-Interfaces#full-project-implementation)<br>
-[Help](https://github.com/sypei/Hand-Interfaces#help)<br>
-[Acknowledgments](https://github.com/sypei/Hand-Interfaces#acknowledgments)<br>
-[Citation](https://github.com/sypei/Hand-Interfaces#citation)<br>
-[In the End](https://github.com/sypei/Hand-Interfaces#in-the-end)<br>
+[Motivation](https://github.com/sypei/Hand-Interfaces#motivation)
+
+[What does Hand Interfaces do?](https://github.com/sypei/Hand-Interfaces#what-does-hand-interfaces-do)
+
+[Quick Start](https://github.com/sypei/Hand-Interfaces#quick-start)
+
+[Full Project Implementation](https://github.com/sypei/Hand-Interfaces#full-project-implementation)
+
+[Help](https://github.com/sypei/Hand-Interfaces#help)
+
+[Acknowledgments](https://github.com/sypei/Hand-Interfaces#acknowledgments)
+
+[Citation](https://github.com/sypei/Hand-Interfaces#citation)
+
+[In the End](https://github.com/sypei/Hand-Interfaces#in-the-end)
 
 ## Motivation
 In the digital reality, there are many objects to retrieve and interact with. This rich set of objects means a lot to the user experience. To play with so many objects, the prevailing method is users hold hand controllers. But holding something all the time can be cumbersome. We want to bring up a new interaction technique that is more readily available.<br>
@@ -45,7 +49,7 @@ To install it, please
 ## Full Project Implementation
 The 11 objects used in user studies are included in this github project. The two tasks - object retrieval and interactive control - are split into separate scenes in user studies.
 ### Dependencies and Configuration
-To build and run the full project, we need to set up our Quest device for Unity development. This is a [tutorial](/documentation/UCLA_Unity Development Workshop Preparation.pdf) I made when I was a TA of a VR course.
+To build and run the full project, we need to set up our Quest device for Unity development. This is a [tutorial](https://github.com/sypei/Hand-Interfaces/blob/main/documentation/UCLA_UnityDevelopmentWorkshopPreparation.pdf) I made when I was a TA of a VR course.
 ### Project Structure
 `handinterfaces/Assets/Scenes/prototypes` stores early versions of idea prototypes.<br>
 `handinterfaces/Assets/Scenes/user study` contains what we showed to participants during user studies. The unity scenes starting with "Retr" are for "object retrieval", while those starting with "Inter" refer to "interactive control". <br>
@@ -59,12 +63,13 @@ Feel free to create a new issue in the 'Issues' tab!
 https://github.com/DavidArayan/ezy-slice<br>
 https://github.com/dilmerv/VRDraw<br>
 https://github.com/pharan/Unity-MeshSaver<br>
+
 In addition, many thanks to [Quentin Valembois](https://www.youtube.com/c/ValemVR), [Dilmer Valecillos](https://www.youtube.com/c/DilmerV) and [Antony Vitillo](https://twitter.com/skarredghost) for their contribution to the AR/VR content creation community.<br>
 Special thanks to the authors of [VirtualGrasp](https://dl.acm.org/doi/10.1145/3173574.3173652), Yukang Yan, et al. for inspiring this thread of work in designing AR/VR interfaces around hands’ expressivity. <br>
 
 ## Citation
 ```
-@inproceedings{pei2022hand,<br>
+@inproceedings{pei2022hand,
 author = {Pei, Siyou and Chen, Alexander and Lee, Jaewook and Zhang, Yang},
 title = {Hand Interfaces: Using Hands to Imitate Objects in AR/VR for Expressive Interactions},
 year = {2022},
@@ -83,4 +88,6 @@ series = {CHI '22}
 ```
 
 ## In the End
-Thank you for reading! You may also find me [@SiyouPei](https://twitter.com/SiyouPei) Isn't it exciting to create the next-gen user experience for XR :D
+Thank you for reading! Isn't it exciting to create the next-gen user experience for XR :D
+
+You may also find me [@SiyouPei](https://twitter.com/SiyouPei) 
