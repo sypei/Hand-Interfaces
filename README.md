@@ -11,8 +11,8 @@ Siyou Pei, Alexander Chen, Jaewook Lee, Yang Zhang :trophy: CHI '22 Honorable Me
 :desktop_computer: [lab website](https://hilab.dev/)
 
 ## Table of Contents
-[### Motivation](https://github.com/sypei/Hand-Interfaces#motivation)<br>
-[### What does Hand Interfaces do?](https://github.com/sypei/Hand-Interfaces#what-does-hand-interfaces-do)<br>
+### [Motivation](https://github.com/sypei/Hand-Interfaces#motivation)<br>
+### [What does Hand Interfaces do?](https://github.com/sypei/Hand-Interfaces#what-does-hand-interfaces-do)<br>
 [Quick Start](https://github.com/sypei/Hand-Interfaces#quick-start)<br>
 [Full Project Implementation](https://github.com/sypei/Hand-Interfaces#full-project-implementation)<br>
 [Help](https://github.com/sypei/Hand-Interfaces#help)<br>
@@ -70,7 +70,7 @@ year = {2022},<br>
 isbn = {9781450391573},<br>
 publisher = {Association for Computing Machinery},<br>
 address = {New York, NY, USA},<br>
-url = {https://doi.org/10.1145/3491102.3501898},<br>
+url = {https\://doi.org/10.1145/3491102.3501898},<br>
 doi = {10.1145/3491102.3501898},<br>
 booktitle = {Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems},<br>
 articleno = {429},<br>
