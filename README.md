@@ -47,10 +47,10 @@ The 11 objects used in user studies are included in this github project. The two
 ### Dependencies and Configuration
 To build and run the full project, we need to set up our Quest device for Unity development. This is a [tutorial](/documentation/UCLA_Unity Development Workshop Preparation.pdf) I made when I was a TA of a VR course.
 ### Project Structure
-handinterfaces/Assets/Scenes/prototypes stores early versions of idea prototypes.<br>
-handinterfaces/Assets/Scenes/user study contains what we showed to participants during user studies. The unity scenes starting with "Retr" are for "object retrieval", while those starting with "Inter" refer to "interactive control". <br>
+`handinterfaces/Assets/Scenes/prototypes` stores early versions of idea prototypes.<br>
+`handinterfaces/Assets/Scenes/user study` contains what we showed to participants during user studies. The unity scenes starting with "Retr" are for "object retrieval", while those starting with "Inter" refer to "interactive control". <br>
 As indicated in the paper, DM, VG, HI are abbreviations for "Drop-down Menu", "VirtualGrasp" and "Hand Interfaces", FG, VM, HI are abbreviations for "Fist Gesture", "Virtual Manipulation" and "Hand Interfaces".<br>
-handinterfaces/Assets/Example Applications/ includes three applications mentioned in the paper, they are "education", "entertainment", and "IoT". Demo videos can be found [here](https://twitter.com/SiyouPei/status/1520298604715384832?s=20&t=m9H04vz897N6nOBseP7Pqw).<br>
+`handinterfaces/Assets/Example Applications/` includes three applications mentioned in the paper, they are "education", "entertainment", and "IoT". Demo videos can be found [here](https://twitter.com/SiyouPei/status/1520298604715384832?s=20&t=m9H04vz897N6nOBseP7Pqw).<br>
 
 ## Help
 Feel free to create a new issue in the 'Issues' tab!
@@ -63,22 +63,24 @@ In addition, many thanks to [Quentin Valembois](https://www.youtube.com/c/ValemV
 Special thanks to the authors of [VirtualGrasp](https://dl.acm.org/doi/10.1145/3173574.3173652), Yukang Yan, et al. for inspiring this thread of work in designing AR/VR interfaces around hands’ expressivity. <br>
 
 ## Citation
+```
 @inproceedings{pei2022hand,<br>
-author = {Pei, Siyou and Chen, Alexander and Lee, Jaewook and Zhang, Yang},<br>
-title = {Hand Interfaces: Using Hands to Imitate Objects in AR/VR for Expressive Interactions},<br>
-year = {2022},<br>
-isbn = {9781450391573},<br>
-publisher = {Association for Computing Machinery},<br>
-address = {New York, NY, USA},<br>
-url = {https\://doi.org/10.1145/3491102.3501898},<br>
-doi = {10.1145/3491102.3501898},<br>
-booktitle = {Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems},<br>
-articleno = {429},<br>
-numpages = {16},<br>
-keywords = {Interaction design, AR/VR, Embodiment, Free-hand interactions, Imitation, On-body interactions},<br>
-location = {New Orleans, LA, USA},<br>
-series = {CHI '22}<br>
-}<br>
+author = {Pei, Siyou and Chen, Alexander and Lee, Jaewook and Zhang, Yang},
+title = {Hand Interfaces: Using Hands to Imitate Objects in AR/VR for Expressive Interactions},
+year = {2022},
+isbn = {9781450391573},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3491102.3501898},
+doi = {10.1145/3491102.3501898},
+booktitle = {Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems},
+articleno = {429},
+numpages = {16},
+keywords = {Interaction design, AR/VR, Embodiment, Free-hand interactions, Imitation, On-body interactions},
+location = {New Orleans, LA, USA},
+series = {CHI '22}
+}
+```
 
 ## In the End
 Thank you for reading! You may also find me [@SiyouPei](https://twitter.com/SiyouPei) Isn't it exciting to create the next-gen user experience for XR :D
