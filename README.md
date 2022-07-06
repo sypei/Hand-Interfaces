@@ -45,7 +45,7 @@ To install it, please
 ## Full Project Implementation
 The 11 objects used in user studies are included in this github project. The two tasks - object retrieval and interactive control - are split into separate scenes in user studies.
 ### Dependencies and Configuration
-To build and run the full project, we need to set up our Quest device for Unity development. This is a [tutorial](https://github.com/sypei/Hand-Interfaces/documentation/UCLA_Unity Development Workshop Preparation.pdf) I made when I was a TA of a VR course.
+To build and run the full project, we need to set up our Quest device for Unity development. This is a [tutorial](/documentation/UCLA_Unity Development Workshop Preparation.pdf) I made when I was a TA of a VR course.
 ### Project Structure
 handinterfaces/Assets/Scenes/prototypes stores early versions of idea prototypes.<br>
 handinterfaces/Assets/Scenes/user study contains what we showed to participants during user studies. The unity scenes starting with "Retr" are for "object retrieval", while those starting with "Inter" refer to "interactive control". <br>
