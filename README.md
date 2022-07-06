@@ -11,8 +11,8 @@ Siyou Pei, Alexander Chen, Jaewook Lee, Yang Zhang :trophy: CHI '22 Honorable Me
 :desktop_computer: [lab website](https://hilab.dev/)
 
 ## Table of Contents
-### [Motivation](https://github.com/sypei/Hand-Interfaces#motivation)<br>
-### [What does Hand Interfaces do?](https://github.com/sypei/Hand-Interfaces#what-does-hand-interfaces-do)<br>
+[Motivation](https://github.com/sypei/Hand-Interfaces#motivation)<br>
+[What does Hand Interfaces do?](https://github.com/sypei/Hand-Interfaces#what-does-hand-interfaces-do)<br>
 [Quick Start](https://github.com/sypei/Hand-Interfaces#quick-start)<br>
 [Full Project Implementation](https://github.com/sypei/Hand-Interfaces#full-project-implementation)<br>
 [Help](https://github.com/sypei/Hand-Interfaces#help)<br>
@@ -25,13 +25,13 @@ In the digital reality, there are many objects to retrieve and interact with. Th
 In the rock-paper-scissors game, people use hands in different shapes to imitate rock, paper and scissors. It is intuitive and self-revealing.<br>
 So we wonder, can we generalize this idea to many other objects and interactions in AR and VR? Then, we propose Hand Interfaces!
 
-![picture of 28 hand interfaces](https://github.com/sypei/Hand-Interfaces/main/documentation/teaser.jpeg)
+![picture of 28 hand interfaces](/documentation/teaser.jpeg)
 
 ## What does Hand Interfaces do?
 We propose **Hand Interfaces** - a new free-hand interaction technique that allows users to embody objects through imitating them with hands. In short, hands now **BECOME** those virtual objects.<br>
 Further, Hand Interfaces not only supports **object retrieval** but also **interactive control**.
 
-![on the left, a hand performs a thumb-up and becomes a joystick, to retrieve an object. On the right, the other hand is manipulating the thumb of the imitating hand, to do interactive control](https://github.com/sypei/Hand-Interfaces/main/documentation/2tasks.gif)
+![on the left, a hand performs a thumb-up and becomes a joystick, to retrieve an object. On the right, the other hand is manipulating the thumb of the imitating hand, to do interactive control](/documentation/2tasks.gif)
 </br>
 
 ## Quick Start
