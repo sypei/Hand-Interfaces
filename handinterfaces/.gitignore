@@ -70,3 +70,9 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# Paid Assets
+/[Aa]ssets/Other Assets/Levers_Buttons_Switches/*
+/[Aa]ssets/Other Assets/PBR Old Flip Phone/*
+/[Aa]ssets/Other Assets/Magnets/*
+/[Aa]ssets/Other Assets/Book/*
