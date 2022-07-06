@@ -11,11 +11,15 @@ Siyou Pei, Alexander Chen, Jaewook Lee, Yang Zhang :trophy: CHI '22 Honorable Me
 :desktop_computer: [lab website](https://hilab.dev/)
 
 ## Table of Contents
-[Motivation](https://github.com/sypei/Hand-Interfaces#motivation)<br>
-[What does Hand Interfaces do?](https://github.com/sypei/Hand-Interfaces#what-does-hand-interfaces-do)<br>
+[### Motivation](https://github.com/sypei/Hand-Interfaces#motivation)<br>
+[### What does Hand Interfaces do?](https://github.com/sypei/Hand-Interfaces#what-does-hand-interfaces-do)<br>
 [Quick Start](https://github.com/sypei/Hand-Interfaces#quick-start)<br>
 [Full Project Implementation](https://github.com/sypei/Hand-Interfaces#full-project-implementation)<br>
-[Dependencies and Configuration](https://github.com/sypei/Hand-Interfaces#dependencies-and-configuration)<br>
+[Help](https://github.com/sypei/Hand-Interfaces#help)<br>
+[Acknowledgments](https://github.com/sypei/Hand-Interfaces#acknowledgments)<br>
+[Citation](https://github.com/sypei/Hand-Interfaces#citation)<br>
+[In the End](https://github.com/sypei/Hand-Interfaces#in-the-end)<br>
+
 ## Motivation
 In the digital reality, there are many objects to retrieve and interact with. This rich set of objects means a lot to the user experience. To play with so many objects, the prevailing method is users hold hand controllers. But holding something all the time can be cumbersome. We want to bring up a new interaction technique that is more readily available.<br>
 In the rock-paper-scissors game, people use hands in different shapes to imitate rock, paper and scissors. It is intuitive and self-revealing.<br>
@@ -76,5 +80,5 @@ location = {New Orleans, LA, USA},<br>
 series = {CHI '22}<br>
 }<br>
 
-## Other
-Thanks for coming. It is exciting to explore the next-generation interaction experience. Throw me your thoughts [@SiyouPei](https://twitter.com/SiyouPei)
+## In the End
+Thank you for reading! You may also find me [@SiyouPei](https://twitter.com/SiyouPei) Isn't it exciting to create the next-gen user experience for XR :D
