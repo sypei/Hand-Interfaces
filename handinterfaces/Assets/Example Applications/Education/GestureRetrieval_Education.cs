@@ -29,21 +29,21 @@ public class GestureRetrieval_Education : MonoBehaviour
     private GameObject cameraHD;
     private GameObject camThumbnail;
     private Dictionary<string, GameObject> gesturedict;
-    private List<float> ss_probes =  new List<float>{1,1,1,1,1,//0-5
-                                                    1,1,1,1,1,//6-10
-                                                    1,1,1,1,1,//11-15
-                                                    1,1,1,1,1,//16-20
-                                                    1,1,1,1};//21-24
-    private List<float> ss_pen =  new List<float>{1,1,1,1,1,//0-5
-                                                    1,1,1,1,1,//6-10
-                                                    1,1,1,1,1,//11-15
-                                                    1,1,1,2,1,//16-20
-                                                    1,1,1,1};//21-24
-    private List<float> ss_cam =  new List<float>{1,1,1,1,0.2f,//0-5
-                                                    1,1,1,1,1,//6-10
-                                                    1,1,1,1,1,//11-15
-                                                    1,1,1,0.1f,1,//16-20
-                                                    1,1,1,1};//21-24
+    private List<float> ss_probes =  new List<float>{1,1,1,1,1,//0-4
+                                                    1,1,1,1,1,//5-9
+                                                    1,1,1,1,1,//10-14
+                                                    1,1,1,1,1,//15-19
+                                                    1,1,1,1};//20-23
+    private List<float> ss_pen =  new List<float>{1,1,1,1,1,//0-4
+                                                    1,1,1,1,1,//5-9
+                                                    1,1,1,1,1,//10-14
+                                                    1,1,1,1,2,//15-19 no.19 is the thumb tip
+                                                    1,1,1,1};//20-23
+    private List<float> ss_cam =  new List<float>{1,1,1,1,1,//0-4
+                                                    0.2f,1,1,1,1,//5-9 no.5 is the distal thumb phalange
+                                                    1,1,1,1,1,//10-14
+                                                    1,1,1,1,0.1f,//15-19 no.10 is the thumb tip
+                                                    1,1,1,1};//20-23
     private Dictionary<string, List<float>> sensitivitydict;
     //This error: NullReferenceException: Object reference not set to an instance of an object
     // is because I did not drag the hand prefab to "skeleton" in inspector interface
